@@ -21,4 +21,14 @@ for job in job_elems:
   print(location_elem.text.strip())
   print()
 
+
+# Search for a specific job by title and find the anchor tag to go a long with it. 
+  python_jobs = results.find_all('h2',
+                               string=lambda text: "software" in text.lower())
+
+for p_job in python_jobs:
+    link = p_job.find('a')['href']
+    print(p_job.text.strip())
+    print(f"Apply here: {link}\n")
+
 # print(results.prettify())
