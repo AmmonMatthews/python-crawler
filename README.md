@@ -1,5 +1,3 @@
 # python-crawler
 
-This is a tutorial that we followed because I wanted to learn about web crawlers and improve my python.
-
-Git hub isn't registering this properlyz
+This is a repository with the website crawler that I created to learn more about python and web crawler
